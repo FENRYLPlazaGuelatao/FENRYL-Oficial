@@ -23,7 +23,7 @@ window.addEventListener("click", function(e){
     if(abierto){
         if(e.target !== menuHamburguesa){
             toggleMenu();
-            abierto=false
+            abierto=false;
         }
     }
 })
