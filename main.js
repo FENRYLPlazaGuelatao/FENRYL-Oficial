@@ -20,6 +20,12 @@ hamburguesa.addEventListener("click", function(){
 
 window.addEventListener("click", function(e){
     this.console.log(e.target)
+    if(abierto){
+        if(e.target !== menuHamburguesa){
+            toggleMenu();
+            abierto=false
+        }
+    }
 })
 
 window.addEventListener("resize", function(){
