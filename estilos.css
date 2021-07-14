@@ -112,7 +112,7 @@ nav a:hover{
 .socialbar{
     position: fixed;
     right: 0;
-    top: 74%;
+    top: 70%;
     font-size: 1.5px;
     display: flex;
     flex-direction: column;
